@@ -1,6 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 import CoursePage from './components/CoursePage'
+import Posts from './components/Posts'
 
 function App() {
   return (
@@ -8,6 +8,7 @@ function App() {
       <header className="App-header">
         
         <CoursePage/>
+        <Posts/>
 
       </header>
     </div>
